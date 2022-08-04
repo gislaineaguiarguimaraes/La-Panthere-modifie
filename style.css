@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.612);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.721);
 }
 
 .d-bloc .panel button:hover,
@@ -504,6 +504,8 @@ button {
   cite {
     font-size: 18px;
     font-style: normal;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.655);
   }
 .panel-sq,
 .panel-sq .panel-heading,
@@ -669,7 +671,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -695,7 +697,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -731,7 +733,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: black!important;
 }
 
 .med-width-whitespace {
@@ -741,7 +743,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
@@ -754,7 +756,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
+    text-shadow: 2px 1px 2px #000000d4;
 }
 
 .portfolio-thumb {
@@ -771,7 +774,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.703);
     padding: 40px 40px 40px 40px;
 }
 
@@ -792,13 +795,10 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
